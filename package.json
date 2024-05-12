@@ -1,0 +1,35 @@
+{
+  "name": "@vibesfr/avatar-media",
+  "version": "1.0.0",
+  "repository": "https://github.com/editor-js/attaches",
+  "keywords": [
+    "blog",
+    "server-less",
+    "editor.js",
+    "editorjs"
+  ],
+  "description": "AvatarMedia Tool for Editor.js",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/avatar-media.umd.js",
+  "module": "./dist/avatar-media.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/avatar-media.mjs",
+      "require": "./dist/avatar-media.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": {
+    "name": "Vibesfr"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0",
+    "vite-plugin-css-injected-by-js": "^3.3.0"
+  }
+}
