@@ -32,7 +32,7 @@ var editor = EditorJS({
 
   tools: {
     ...
-    blog: AvatarMedia,
+    avatarMedia: AvatarMedia,
   }
 
   ...
