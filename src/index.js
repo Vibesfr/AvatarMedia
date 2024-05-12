@@ -1,4 +1,4 @@
-class AvatarMedia {
+export default class AvatarMedia {
   static get toolbox() {
     return {
       title: 'Avatar Media',
