@@ -41,11 +41,11 @@ var editor = EditorJS({
 
 ## Config Params
 
-```json
+```
 config: {
     users: yourUsers,
     currentUser: yourCurrentUser,
-},
+}
 ```
 
 ## Tool's settings

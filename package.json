@@ -1,7 +1,10 @@
 {
   "name": "@vibesfr/avatar-media",
   "version": "1.0.0",
-  "repository": "https://github.com/editor-js/attaches",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vibesfr/AvatarMedia"
+  },
   "keywords": [
     "blog",
     "server-less",
@@ -25,11 +28,21 @@
     "dev": "vite",
     "build": "vite build"
   },
-  "author": {
-    "name": "Vibesfr"
-  },
+  "author": "Vibesfr",
   "devDependencies": {
     "vite": "^4.5.0",
     "vite-plugin-css-injected-by-js": "^3.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/editor-js/attaches/issues"
+  },
+  "homepage": "https://github.com/editor-js/attaches#readme",
+  "dependencies": {
+    "esbuild": "^0.18.20",
+    "nanoid": "^3.3.7",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.38",
+    "rollup": "^3.29.4",
+    "source-map-js": "^1.2.0"
   }
 }
